@@ -32,7 +32,7 @@ ul{
 }
 
 .header {
-    background-image: url(/img/bgc.jpg);
+    background-image: url(./img/bgc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -256,7 +256,7 @@ table{
     width: 260px;
     top: -70px;
     left: -30px;
-    background-image: url(/img/collection/image.png);
+    background-image: url(./img/collection/image.png);
     background: no-repeat cover center;
 }
 .register__main::after{
@@ -266,7 +266,7 @@ table{
     width: 260px;
     top: -70px;
     right: -30px;
-    background-image: url(/img/collection/image2.png);
+    background-image: url(./img/collection/image2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
