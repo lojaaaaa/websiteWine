@@ -119,6 +119,16 @@ ul{
     justify-content: center;
     gap: 30px;
 }
+.header__arrow{
+    padding-top: 50px;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    transition: all .3s;
+}
+.header__arrow:hover{
+    font-size: 60px;
+}
 
 
 
