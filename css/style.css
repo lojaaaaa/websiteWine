@@ -128,8 +128,8 @@ ul{
 }
 .header__arrow:hover{
     font-size: 60px;
+    opacity: .5;
 }
-
 
 
 /*
@@ -634,6 +634,10 @@ input:focus{
     .footer__menu-link:not(:last-child){
         margin-right: 10px;
       }
+    .desc__text {
+        font-size: 13px;
+        line-height: 150%;
+    }
 
 }
 
@@ -642,7 +646,7 @@ input:focus{
         flex-direction: column;
     }
     .nav{
-        margin-bottom: 350px;
+        margin-bottom: 300px;
     }
     .nav__sub-menu{
         flex-direction: column;
@@ -669,5 +673,37 @@ input:focus{
     }
     .window__btn {
         width: 100%;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .desc__container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .collection__container {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+    .collection__main {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    .register__container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .register__main{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .register__line {
+        margin-bottom: 45px;
+    }
+    .register__text{
+        font-size: 13px;
+        margin-bottom: 35px;
     }
 }
