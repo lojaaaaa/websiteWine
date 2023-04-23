@@ -56,9 +56,7 @@ ul{
     overflow-y: hidden;
     max-height: 100vh
 }
-.scroll__padding{
-    padding-right: 17px
-}
+
 .wrapper{
     min-height: 100%;
     display: flex;
@@ -573,6 +571,9 @@ input:focus{
     }
     .header__arrow:hover{
         opacity: .9;
+    }
+    .scroll__padding{
+        padding-right: 17px
     }
 }
 
