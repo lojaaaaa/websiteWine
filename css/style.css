@@ -1,7 +1,9 @@
 /*
 * Обнуление
 */
-
+html {
+    
+}
 *{
     padding: 0;
     margin: 0;
@@ -39,6 +41,7 @@ ul{
     background: #99862A;
     padding: 15px 30px;
     color: white;
+    transition: all .2s;
 }
 
 
@@ -50,7 +53,11 @@ ul{
 }
 
 .scroll__hidden{
-    overflow: hidden;
+    overflow-y: hidden;
+    max-height: 100vh
+}
+.scroll__padding{
+    padding-right: 17px
 }
 .wrapper{
     min-height: 100%;
@@ -69,7 +76,7 @@ ul{
 
 
 .header {
-    background-image: url(../img/bgc.jpg);
+    background-image: url(/img/bgc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -435,11 +442,13 @@ input:focus{
     line-height: 150%;
     text-transform: uppercase;
     margin-right: 35px;
+    transition: all .2s;
 }
 .footer__menu-link:last-child{
     margin-right: 0;
 }
 .footer__link{
+    transition: all .2s;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
@@ -563,8 +572,7 @@ input:focus{
         opacity: .7;
     }
     .header__arrow:hover{
-        font-size: 35px;
-        opacity: .8;
+        opacity: .9;
     }
 }
 
