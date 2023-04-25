@@ -74,7 +74,7 @@ ul{
 
 
 .header {
-    background-image: url(../img/bgc.jpg);
+    background-image: url(/img/bgc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -572,9 +572,7 @@ input:focus{
     .header__arrow:hover{
         opacity: .9;
     }
-    .scroll__padding{
-        padding-right: 17px
-    }
+
 }
 
 
