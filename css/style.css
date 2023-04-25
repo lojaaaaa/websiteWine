@@ -74,7 +74,7 @@ ul{
 
 
 .header {
-    background-image: url(/img/bgc.jpg);
+    background-image: url(../img/bgc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
